@@ -95,3 +95,9 @@
         margin-top: 30px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    section.contact .form-inner-box {
+        padding: 40px 20px;
+    }
+}
