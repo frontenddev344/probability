@@ -322,4 +322,60 @@ footer.footer {
     }
 }
 
+// ABOUT PAGE CSS
+section.hero-section.about {
+    .hero-section-inner.about {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .hero-section-content {
+            h2 {
+                text-align: center;
+                margin-bottom: 20px
+            }
+
+            p {
+                max-width: 443px;
+                margin: 0 auto;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.vegas-hotel {
+    padding: 60px 0;
+
+    .vegas-hotel-inner {
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 2rem;
+
+        .las-text {
+            padding: 0 20px;
+
+            h3 {
+                font-size: 24px;
+                font-weight: 700;
+                color: $menu-color;
+                line-height: 35px;
+                max-width: 532px;
+            }
+
+            p {
+                color: #1f2b42;
+                font-size: 16px;
+                line-height: 32px;
+
+
+                img {
+                    max-width: 120px;
+                }
+            }
+        }
+    }
+}
+
 @import './responsive';
