@@ -410,6 +410,25 @@ section.privacy {
             padding-bottom: 14px;
             line-height: 30px;
         }
+
+        ul {
+            li {
+                position: relative;
+                padding-left: 20px;
+                padding-bottom: 15px;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    background: #000;
+                    width: 8px;
+                    height: 8px;
+                    top: 8px;
+                    left: 0;
+                    border-radius: 50%;
+                }
+            }
+        }
     }
 }
 
