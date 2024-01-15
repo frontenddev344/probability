@@ -490,3 +490,75 @@
     left: 0;
     border-radius: 50%;
 }
+
+// contact page css start from here
+@mixin contact {
+    padding: 60px 0;
+}
+
+@mixin contact-innre-h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 12px;
+    color: $menu-color;
+}
+
+@mixin contact-innre-p {
+    font-size: 16px;
+    line-height: 30px;
+    color: $color-black;
+    font-weight: 400;
+}
+
+@mixin form-inner-box {
+    margin-top: 60px;
+    border-radius: 20px;
+    background: #1f2b42;
+    padding: 50px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: $color-white;
+}
+
+@mixin input {
+    border: 1px solid #a9a9a9;
+    background: $color-white;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+@mixin textareaw3review {
+    border: 1px solid #a9a9a9;
+    background: $color-white;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+@mixin SendMyMessage {
+    margin: 0;
+    font-size: 18px;
+    padding: 14px 24px;
+    text-transform: uppercase;
+    border: 1px solid $color-yellow;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    background: $color-yellow;
+    color: $color-white;
+    width: auto;
+}
+
+@mixin SendMyMessage-hover {
+    background-color: transparent;
+    color: $color-yellow;
+}

@@ -421,76 +421,48 @@ section.privacy {
 
 // contact page css start from here
 section.contact {
-    padding: 60px 0;
+    @include contact;
 
     .contact-innre {
         h5 {
-            font-size: 22px;
-            font-weight: 700;
-            margin: 0;
-            padding-bottom: 12px;
-            color: $menu-color;
+
+            @include contact-innre-h5;
         }
 
         p {
-            font-size: 16px;
-            line-height: 30px;
-            color: $color-black;
-            font-weight: 400;
+
+            @include contact-innre-p;
         }
     }
 
     .form-inner-box {
-        margin-top: 60px;
-        border-radius: 20px;
-        background: #1f2b42;
-        padding: 50px;
-        width: 100%;
-        max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
+        @include form-inner-box;
 
         .connect-inner-box {
+
             .connect-billboard {
+
                 .inbox-wrapper {
+
                     label {
-                        width: 100%;
-                        margin-bottom: 10px;
-                        font-weight: bold;
-                        color: $color-white;
+                        @include label;
                     }
 
                     input {
-                        border: 1px solid #a9a9a9;
-                        background: $color-white;
-                        padding: 10px;
-                        margin-bottom: 30px;
-                        width: 100%
+                        @include input;
                     }
 
                     textarea#w3review {
-                        border: 1px solid #a9a9a9;
-                        background: $color-white;
-                        padding: 10px;
-                        margin-bottom: 30px;
-                        width: 100%
+
+                        @include textareaw3review;
                     }
 
                     input#SendMyMessage {
-                        margin: 0;
-                        font-size: 18px;
-                        padding: 14px 24px;
-                        text-transform: uppercase;
-                        border: 1px solid $color-yellow;
-                        font-weight: 500;
-                        transition: all 0.3s ease-in;
-                        background: $color-yellow;
-                        color: $color-white;
-                        width: auto;
+
+                        @include SendMyMessage;
 
                         &:hover {
-                            background-color: transparent;
-                            color: $color-yellow;
+                            @include SendMyMessage-hover;
                         }
                     }
                 }
