@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1024px) {
+    .sidenavs {
+        width: 0;
+        position: fixed;
+        background: $menu-color;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        overflow-x: hidden;
+        height: 100vh;
+        transition: all 0.3s;
+        z-index: 99999;
+    }
+
+    span.toggle_menu,
+    a.closebtn {
+        display: block !important;
+    }
+
+    .nav-menu {
+        align-items: flex-start;
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    header.header .navigation-inner .nav-menu li a {
+        color: $color-white;
+
+    }
+
+    section.hero-section .hero-section-inner::before,
+    header.header .navigation-inner::after,
+    header.header .navigation-inner::before,
+    section.hero-section .hero-section-inner::after {
+
+        display: none;
+    }
+
+    section.hero-section .hero-section-inner {
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    section.hero-section .hero-section-inner .hero-section-content {
+        padding: 30px;
+    }
+
+    section.hero-section .hero-section-inner .hero-section-content h1 {
+        font-size: 44px;
+    }
+
+    header.header .navigation-inner {
+        padding: 1rem 0;
+    }
+
+    section.hero-section .hero-section-inner {
+        height: auto;
+    }
+
+    section.hero-section .hero-section-inner .hero-image {
+        position: static;
+    }
+
+    .hotel-content {
+        margin-top: 30px;
+    }
+
+    section.casino-hotels .casino-hotels-inner {
+        margin: 2rem 0;
+    }
+
+    footer.footer .footer-inner .social-icon {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        margin-top: 16px;
+    }
+
+    footer.footer .footer-inner .social-icon ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    footer.footer .footer-inner .social-icon ul li {
+        padding: 0;
+    }
+}

@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+/* line 14, ../scss/_frame.scss */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* line 18, ../scss/_frame.scss */
+::-webkit-scrollbar-track {
+  background: #1f2b42;
+}
+
+/* line 22, ../scss/_frame.scss */
+::-webkit-scrollbar-thumb {
+  background: #f8b940;
+  border-radius: 2px;
+}
+
+* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header.header {
+  background-color: #fff;
+}
+header.header .navigation-inner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  position: relative;
+}
+header.header .navigation-inner::before {
+  bottom: 0;
+  content: "";
+  height: 1.5rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: calc(100% - 600px);
+  background: #1f2b42;
+}
+header.header .navigation-inner::after {
+  bottom: 0;
+  content: "";
+  height: 1.5rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: calc(100% - 600px);
+  background: #fff;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+header.header .navigation-inner .nav-menu {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+}
+header.header .navigation-inner .nav-menu li a {
+  color: #1f2b42;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+header.header .navigation-inner .nav-menu li a.active {
+  color: #f8b940;
+}
+header.header .navigation-inner .nav-menu li a:hover {
+  color: #f8b940;
+}
+header.header .navigation-inner span.toggle_menu,
+header.header .navigation-inner a.closebtn {
+  display: none;
+  font-size: 30px;
+}
+header.header .sidenavs .closebtn {
+  display: block;
+  line-height: 25px;
+  right: 7px;
+  margin: 0;
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  color: #fff;
+  text-align: right;
+}
+
+section.hero-section .hero-section-inner {
+  background: #1f2b42;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+  position: relative;
+  height: 482px;
+}
+section.hero-section .hero-section-inner::before {
+  background: #1f2b42;
+  bottom: 100%;
+  content: "";
+  height: 3rem;
+  position: absolute;
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 1.5rem;
+  left: 0;
+}
+section.hero-section .hero-section-inner::after {
+  background: #1f2b42;
+  bottom: 100%;
+  content: "";
+  height: 3rem;
+  position: absolute;
+  width: 300px;
+  right: 0;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 20px;
+  right: 0;
+}
+section.hero-section .hero-section-inner .hero-section-content {
+  padding: 4rem 0 4rem 4rem;
+}
+section.hero-section .hero-section-inner .hero-section-content h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  line-height: 1.125;
+}
+section.hero-section .hero-section-inner .hero-section-content h1 span {
+  color: #f8b940;
+}
+section.hero-section .hero-section-inner .hero-section-content p {
+  color: #fff;
+  font-size: 16px;
+}
+section.hero-section .hero-section-inner .hero-section-content .hero-button {
+  margin-top: 2rem;
+}
+section.hero-section .hero-section-inner .hero-section-content .hero-button a.button {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.25rem 4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+section.hero-section .hero-section-inner .hero-section-content .hero-button a.button:hover {
+  background-color: #f8b940;
+  color: #fff;
+}
+section.hero-section .hero-section-inner .hero-image {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+
+section.combination {
+  padding: 60px 0 50px;
+  overflow: hidden;
+}
+section.combination .combination-inner .row {
+  align-items: center;
+}
+section.combination .combination-inner .row .col-lg-6 .combination-content h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f2b42;
+}
+section.combination .combination-inner .row .col-lg-6 .combination-content h3 span {
+  color: #f8b940;
+}
+section.combination .combination-inner .row .col-lg-6 .combination-content p {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #1f2b42;
+  line-height: 32px;
+  width: 100%;
+  max-width: 555px;
+}
+section.combination .combination-inner .row .col-lg-6 .combination-img {
+  border-radius: 9px;
+  overflow: hidden;
+}
+section.combination .combination-inner .row .col-lg-6 .combination-img figure img {
+  border-radius: 9px;
+  animation: zoom 20s ease-in-out infinite;
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+section.casino-hotels {
+  padding: 50px 0;
+  overflow: hidden;
+}
+section.casino-hotels .casino-hotels-wrapper h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f2b42;
+}
+section.casino-hotels .casino-hotels-inner {
+  margin: 4rem 0;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+section.casino-hotels .casino-hotels-inner .hotel-image img {
+  border-radius: 10px;
+  height: 268px;
+  object-fit: cover;
+}
+section.casino-hotels .casino-hotels-inner .hotel-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+section.casino-hotels .casino-hotels-inner .hotel-content p {
+  color: #1f2b42;
+  font-size: 16px;
+  line-height: 32px;
+}
+section.casino-hotels .casino-hotels-inner .hotel-content p img {
+  max-width: 120px;
+}
+
+section.perfect {
+  padding-bottom: 50px;
+}
+section.perfect .perfect-inner h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+section.perfect .perfect-wrapper ul li.heading {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 0;
+  color: #1f2b42;
+}
+section.perfect .perfect-wrapper ul li.dark {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  position: relative;
+  padding-left: 20px;
+}
+section.perfect .perfect-wrapper ul li.dark::before {
+  position: absolute;
+  content: "";
+  background: #1f2b42;
+  width: 8px;
+  height: 8px;
+  top: 8px;
+  left: 0;
+  border-radius: 50%;
+}
+
+section.adventure {
+  padding-bottom: 50px;
+}
+section.adventure .adventure-wrapper p {
+  font-size: 16px;
+  color: #000;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+footer.footer {
+  background: #1f2b42;
+  color: #fff;
+  padding: 4rem 0;
+}
+footer.footer .footer-inner .about-menu h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f8b940;
+  margin-bottom: 20px;
+}
+footer.footer .footer-inner .about-menu p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 578px;
+}
+footer.footer .footer-inner .about-menu h6 {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+footer.footer .footer-inner .about-menu ul li a {
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 0;
+  display: block;
+  transition: all 0.3s;
+}
+footer.footer .footer-inner .about-menu ul li a:hover {
+  color: #f8b940;
+  padding-left: 6px;
+}
+footer.footer .footer-inner .social-icon {
+  width: 54px;
+  height: 257px;
+  border-radius: 15px;
+  background: #f8b940;
+  margin-left: auto;
+  padding: 24px 0px 24px 0px;
+  text-align: center;
+}
+footer.footer .footer-inner .social-icon ul li {
+  padding: 0 0 16px 0;
+}
+footer.footer .footer-inner .social-icon ul li a {
+  background: transparent;
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+  transition: all 0.3s;
+}
+footer.footer .footer-inner .social-icon ul li a:hover {
+  background-color: #1f2b42;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidenavs {
+    width: 0;
+    position: fixed;
+    background: #1f2b42;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    overflow-x: hidden;
+    height: 100vh;
+    transition: all 0.3s;
+    z-index: 99999;
+  }
+  span.toggle_menu,
+  a.closebtn {
+    display: block !important;
+  }
+  .nav-menu {
+    align-items: flex-start;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    margin: 0;
+    flex-direction: column;
+  }
+  header.header .navigation-inner .nav-menu li a {
+    color: #fff;
+  }
+  section.hero-section .hero-section-inner::before,
+  header.header .navigation-inner::after,
+  header.header .navigation-inner::before,
+  section.hero-section .hero-section-inner::after {
+    display: none;
+  }
+  section.hero-section .hero-section-inner {
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  section.hero-section .hero-section-inner .hero-section-content {
+    padding: 30px;
+  }
+  section.hero-section .hero-section-inner .hero-section-content h1 {
+    font-size: 44px;
+  }
+  header.header .navigation-inner {
+    padding: 1rem 0;
+  }
+  section.hero-section .hero-section-inner {
+    height: auto;
+  }
+  section.hero-section .hero-section-inner .hero-image {
+    position: static;
+  }
+  .hotel-content {
+    margin-top: 30px;
+  }
+  section.casino-hotels .casino-hotels-inner {
+    margin: 2rem 0;
+  }
+  footer.footer .footer-inner .social-icon {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin-top: 16px;
+  }
+  footer.footer .footer-inner .social-icon ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  footer.footer .footer-inner .social-icon ul li {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

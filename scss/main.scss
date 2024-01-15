@@ -1,0 +1,325 @@
+@import './variables';
+@import './mixins';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+/* line 14, ../scss/_frame.scss */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* line 18, ../scss/_frame.scss */
+::-webkit-scrollbar-track {
+    background: $menu-color;
+}
+
+/* line 22, ../scss/_frame.scss */
+::-webkit-scrollbar-thumb {
+    background: $color-yellow;
+    border-radius: 2px;
+}
+
+* {
+    @include global-reset;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    @include container;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Header css start from here
+header.header {
+    @include header-bg;
+
+    .navigation-inner {
+        @include navigation-inner;
+
+        &::before {
+            @include navigation-inner-before;
+        }
+
+        &::after {
+            @include navigation-inner-after;
+        }
+
+        .nav-menu {
+            @include nav-menu;
+
+            li {
+                a {
+                    @include nav-menu-a;
+
+                    &.active {
+                        @include nav-menu-a-active;
+                    }
+
+                    &:hover {
+                        @include nav-menu-a-active;
+                    }
+                }
+            }
+        }
+
+        span.toggle_menu,
+        a.closebtn {
+            @include toggle_menu;
+        }
+    }
+
+    .sidenavs .closebtn {
+        @include closebtn;
+    }
+}
+
+// Header css end here
+
+// hero section css start from here
+section.hero-section {
+    .hero-section-inner {
+        @include hero-section-inner;
+
+        &::before {
+            @include hero-section-inner-before;
+        }
+
+        &::after {
+            @include hero-section-inner-after;
+        }
+
+        .hero-section-content {
+            @include hero-section-content;
+
+            h1 {
+                @include hero-section-content-heading;
+
+                span {
+                    @include hero-section-content-heading-span;
+                }
+            }
+
+            p {
+                @include hero-section-content-para;
+            }
+
+            .hero-button {
+                @include hero-button;
+
+                a.button {
+                    @include hero-button-button;
+
+                    &:hover {
+                        @include hero-button-button-hover;
+                    }
+                }
+            }
+        }
+
+        .hero-image {
+            @include hero-image;
+        }
+    }
+}
+
+// hero section css end here
+
+// you ready to roll the dice and experience 
+section.combination {
+    @include combination;
+
+    .combination-inner {
+        .row {
+            @include combination-inner-row;
+
+            .col-lg-6 {
+                .combination-content {
+                    h3 {
+                        @include combination-content-heading;
+
+                        span {
+                            @include hero-section-content-heading-span;
+                        }
+                    }
+
+                    p {
+                        margin-bottom: 1rem;
+                        font-size: 16px;
+                        color: $menu-color;
+                        line-height: 32px;
+                        width: 100%;
+                        max-width: 555px;
+
+                    }
+                }
+
+                .combination-img {
+                    @include combination-img;
+
+                    figure {
+                        img {
+                            @include combination-img-img;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes zoom {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+// casino-hotels
+
+section.casino-hotels {
+    @include casino-hotels;
+
+    .casino-hotels-wrapper {
+        h4 {
+            text-align: center;
+            @include combination-content-heading;
+        }
+    }
+
+    .casino-hotels-inner {
+        @include casino-hotels-inner;
+
+        .hotel-image {
+            img {
+                @include hotel-image;
+            }
+        }
+
+        .hotel-content {
+            h3 {
+                @include hotel-content;
+            }
+
+            p {
+                @include hotel-content-p;
+
+                img {
+                    @include hotel-content-p-img;
+                }
+            }
+        }
+    }
+}
+
+// 
+
+section.perfect {
+    @include perfect;
+
+    .perfect-inner {
+        h4 {
+            @include perfect-inner-heading;
+        }
+
+    }
+
+    .perfect-wrapper {
+        ul {
+            li.heading {
+                @include perfect-wrapper-list;
+            }
+
+            li.dark {
+                @include li-dark;
+
+                &::before {
+                    @include li-dark-before;
+                }
+            }
+        }
+    }
+}
+
+
+// 
+section.adventure {
+    @include adventure;
+
+    .adventure-wrapper {
+        p {
+            @include adventure-p;
+        }
+    }
+}
+
+footer.footer {
+    @include footer;
+
+    .footer-inner {
+        .about-menu {
+            h3 {
+                @include about-menu-heading;
+            }
+
+            p {
+                @include about-menu-p;
+            }
+
+            h6 {
+                @include about-menu-copy;
+            }
+
+            ul {
+                li {
+                    a {
+                        @include about-menu-a;
+
+                        &:hover {
+                            @include about-menu-hover;
+                        }
+                    }
+                }
+            }
+        }
+
+        .social-icon {
+            @include social-icon;
+
+            ul {
+                li {
+                    @include social-icon-li;
+
+                    a {
+                        @include social-icon-a;
+
+                        &:hover {
+                            @include social-icon-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import './responsive';
