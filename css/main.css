@@ -418,6 +418,9 @@ section.hero-section.about .hero-section-inner.about .hero-section-content p {
 .vegas-hotel .vegas-hotel-inner .las-text p img {
   max-width: 120px;
 }
+.vegas-hotel .vegas-hotel-inner .lasvage img {
+  border-radius: 10px;
+}
 
 @media only screen and (max-width: 1024px) {
   .sidenavs {
