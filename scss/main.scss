@@ -475,4 +475,35 @@ section.contact {
     }
 }
 
+section.networks-social {
+    padding-bottom: 60px;
+
+    .social-networks {
+        h5 {
+            font-size: 22px;
+            color: $menu-color;
+            font-weight: 600;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: $color-black;
+            line-height: 30px;
+            font-weight: 400;
+        }
+
+        ul {
+            li {
+                font-size: 16px;
+                color: $color-black;
+                line-height: 30px;
+                font-weight: 400;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
 @import './responsive';
