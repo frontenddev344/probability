@@ -432,6 +432,10 @@ section.contact {
         p {
 
             @include contact-innre-p;
+
+            a {
+                color: $color-yellow
+            }
         }
     }
 

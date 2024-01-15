@@ -497,6 +497,9 @@ section.contact .contact-innre p {
   color: #000;
   font-weight: 400;
 }
+section.contact .contact-innre p a {
+  color: #f8b940;
+}
 section.contact .form-inner-box {
   margin-top: 60px;
   border-radius: 20px;
