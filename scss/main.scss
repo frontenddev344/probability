@@ -388,4 +388,29 @@ section.our-mission {
     }
 }
 
+// privacy page css
+
+section.privacy {
+    padding: 60px 0;
+
+    .privacy-inner {
+        h5 {
+            font-size: 22px;
+            font-weight: 700;
+            color: $menu-color;
+            text-transform: capitalize;
+            margin: 0;
+            padding-bottom: 14px;
+        }
+
+        p {
+            font-size: 16px;
+            color: $color-black;
+            margin: 0;
+            padding-bottom: 14px;
+            line-height: 30px;
+        }
+    }
+}
+
 @import './responsive';

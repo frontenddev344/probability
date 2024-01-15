@@ -444,6 +444,25 @@ section.our-mission .mission h5 {
   color: #1f2b42;
 }
 
+section.privacy {
+  padding: 60px 0;
+}
+section.privacy .privacy-inner h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2b42;
+  text-transform: capitalize;
+  margin: 0;
+  padding-bottom: 14px;
+}
+section.privacy .privacy-inner p {
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  padding-bottom: 14px;
+  line-height: 30px;
+}
+
 @media only screen and (max-width: 1024px) {
   .sidenavs {
     width: 0;
