@@ -422,6 +422,17 @@ section.hero-section.about .hero-section-inner.about .hero-section-content p {
   border-radius: 10px;
 }
 
+section.our-mission {
+  padding-bottom: 60px;
+}
+section.our-mission .mission h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f2b42;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
 @media only screen and (max-width: 1024px) {
   .sidenavs {
     width: 0;

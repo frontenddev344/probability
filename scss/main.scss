@@ -384,4 +384,18 @@ section.hero-section.about {
     }
 }
 
+section.our-mission {
+    padding-bottom: 60px;
+
+    .mission {
+        h4 {
+            font-size: 22px;
+            font-weight: 600;
+            color: $menu-color;
+            margin: 0;
+            padding-bottom: 12px;
+        }
+    }
+}
+
 @import './responsive';
