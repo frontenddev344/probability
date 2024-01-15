@@ -451,3 +451,42 @@
     font-weight: 600;
     color: $menu-color;
 }
+
+// privacy page css
+@mixin privacy {
+    padding: 60px 0;
+}
+
+@mixin privacy-inner-h5 {
+    font-size: 22px;
+    font-weight: 700;
+    color: $menu-color;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+@mixin privacy-inner-p {
+    font-size: 16px;
+    color: $color-black;
+    margin: 0;
+    padding-bottom: 14px;
+    line-height: 30px;
+}
+
+@mixin privacy-inner-li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+@mixin privacy-inner-li-before {
+    position: absolute;
+    content: "";
+    background: #000;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}

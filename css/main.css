@@ -481,6 +481,65 @@ section.privacy .privacy-inner ul li::before {
   border-radius: 50%;
 }
 
+section.contact {
+  padding: 60px 0;
+}
+section.contact .contact-innre h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 12px;
+  color: #1f2b42;
+}
+section.contact .contact-innre p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 400;
+}
+section.contact .form-inner-box {
+  margin-top: 60px;
+  border-radius: 20px;
+  background: #1f2b42;
+  padding: 50px;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.contact .form-inner-box .connect-inner-box .connect-billboard .inbox-wrapper label {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+section.contact .form-inner-box .connect-inner-box .connect-billboard .inbox-wrapper input {
+  border: 1px solid #a9a9a9;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+section.contact .form-inner-box .connect-inner-box .connect-billboard .inbox-wrapper textarea#w3review {
+  border: 1px solid #a9a9a9;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+section.contact .form-inner-box .connect-inner-box .connect-billboard .inbox-wrapper input#SendMyMessage {
+  margin: 0;
+  font-size: 18px;
+  padding: 14px 24px;
+  text-transform: uppercase;
+  border: 1px solid #f8b940;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+  background: #f8b940;
+  color: #fff;
+  width: auto;
+}
+
 @media only screen and (max-width: 1024px) {
   .sidenavs {
     width: 0;
