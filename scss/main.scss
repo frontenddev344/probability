@@ -395,6 +395,19 @@ section.our-mission {
             margin: 0;
             padding-bottom: 12px;
         }
+
+        p {
+            color: $color-black;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-weight: 600;
+            color: $menu-color;
+        }
     }
 }
 
