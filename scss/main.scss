@@ -409,6 +409,10 @@ section.privacy {
             margin: 0;
             padding-bottom: 14px;
             line-height: 30px;
+
+            a {
+                color: $color-yellow;
+            }
         }
 
         ul {
