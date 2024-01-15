@@ -486,7 +486,12 @@ section.contact {
                         transition: all 0.3s ease-in;
                         background: $color-yellow;
                         color: $color-white;
-                        width: auto
+                        width: auto;
+
+                        &:hover {
+                            background-color: transparent;
+                            color: $color-yellow;
+                        }
                     }
                 }
             }

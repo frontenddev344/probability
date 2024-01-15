@@ -539,6 +539,10 @@ section.contact .form-inner-box .connect-inner-box .connect-billboard .inbox-wra
   color: #fff;
   width: auto;
 }
+section.contact .form-inner-box .connect-inner-box .connect-billboard .inbox-wrapper input#SendMyMessage:hover {
+  background-color: transparent;
+  color: #f8b940;
+}
 
 @media only screen and (max-width: 1024px) {
   .sidenavs {
