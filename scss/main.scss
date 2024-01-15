@@ -325,88 +325,65 @@ footer.footer {
 // ABOUT PAGE CSS
 section.hero-section.about {
     .hero-section-inner.about {
-        height: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include hero-section-about;
 
         .hero-section-content {
             h2 {
-                text-align: center;
-                margin-bottom: 20px
+                @include hero-section-content-h2;
             }
 
             p {
-                max-width: 443px;
-                margin: 0 auto;
-                width: 100%;
-                text-align: center;
+                @include hero-section-content-p;
             }
         }
     }
 }
 
 .vegas-hotel {
-    padding: 60px 0;
+    @include vegas-hotel;
 
     .vegas-hotel-inner {
-        border-bottom: 1px solid #e1e1e1;
-        padding-bottom: 2rem;
+        @include vegas-hotel-inner;
 
         .las-text {
-            padding: 0 20px;
+            @include las-text;
 
             h3 {
-                font-size: 24px;
-                font-weight: 700;
-                color: $menu-color;
-                line-height: 35px;
-                max-width: 532px;
+                @include las-text-h3;
             }
 
             p {
-                color: #1f2b42;
-                font-size: 16px;
-                line-height: 32px;
-
+                @include las-text-p;
 
                 img {
-                    max-width: 120px;
+                    @include las-text-img;
                 }
             }
         }
 
         .lasvage {
             img {
-                border-radius: 10px
+                @include lasvage;
             }
         }
     }
 }
 
 section.our-mission {
-    padding-bottom: 60px;
+
+    @include our-mission;
 
     .mission {
         h4 {
-            font-size: 22px;
-            font-weight: 600;
-            color: $menu-color;
-            margin: 0;
-            padding-bottom: 12px;
+            @include mission-h4;
         }
 
         p {
-            color: $color-black;
-            font-size: 16px;
-            line-height: 30px;
-            font-weight: 400;
+            @include mission-p;
         }
 
         h5 {
-            font-size: 18px;
-            font-weight: 600;
-            color: $menu-color;
+            @include mission-h5;
         }
     }
 }

@@ -371,3 +371,83 @@
 @mixin social-icon-hover {
     background-color: $menu-color
 }
+
+// // ABOUT PAGE CSS
+@mixin hero-section-about {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin hero-section-content-h2 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+@mixin hero-section-content-p {
+    max-width: 443px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+@mixin vegas-hotel {
+    padding: 60px 0;
+}
+
+@mixin vegas-hotel-inner {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 2rem;
+}
+
+@mixin las-text {
+    padding: 0 20px;
+}
+
+@mixin las-text-h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: $menu-color;
+    line-height: 35px;
+    max-width: 532px;
+}
+
+@mixin las-text-p {
+    color: #1f2b42;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+@mixin las-text-img {
+    max-width: 120px;
+}
+
+@mixin lasvage {
+    border-radius: 10px
+}
+
+@mixin our-mission {
+    padding-bottom: 60px;
+}
+
+@mixin mission-h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: $menu-color;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+@mixin mission-p {
+    color: $color-black;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+@mixin mission-h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: $menu-color;
+}
