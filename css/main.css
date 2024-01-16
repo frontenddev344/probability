@@ -4,6 +4,10 @@
   width: 4px;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 /* line 18, ../scss/_frame.scss */
 ::-webkit-scrollbar-track {
   background: #1f2b42;
@@ -377,10 +381,12 @@ footer.footer .footer-inner .social-icon ul li a:hover {
 }
 
 section.hero-section.about .hero-section-inner.about {
-  height: 400px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 section.hero-section.about .hero-section-inner.about .hero-section-content h2 {
   text-align: center;

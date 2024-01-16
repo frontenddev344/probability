@@ -7,6 +7,10 @@
     width: 4px;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 /* line 18, ../scss/_frame.scss */
 ::-webkit-scrollbar-track {
     background: $menu-color;
