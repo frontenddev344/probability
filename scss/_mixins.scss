@@ -10,7 +10,7 @@
 
 // Define a mixin for container styles
 @mixin container {
-    max-width: 1280px;
+    max-width: $max-container-width;
     width: 100%;
     margin: 0 auto;
 }
@@ -37,7 +37,7 @@
     position: absolute;
     transform: translateX(-50%);
     width: calc(100% - 600px);
-    background: #1f2b42;
+    background: $menu-color;
 }
 
 @mixin navigation-inner-after {
@@ -48,7 +48,7 @@
     position: absolute;
     transform: translateX(-50%);
     width: calc(100% - 600px);
-    background: #fff;
+    background: $color-white;
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
@@ -105,7 +105,7 @@
 }
 
 @mixin hero-section-inner-before {
-    background: #1f2b42;
+    background: $menu-color;
     bottom: 100%;
     content: "";
     height: 3rem;
@@ -117,7 +117,7 @@
 }
 
 @mixin hero-section-inner-after {
-    background: #1f2b42;
+    background: $menu-color;
     bottom: 100%;
     content: "";
     height: 3rem;
@@ -219,7 +219,7 @@
 
 @mixin casino-hotels-inner {
     margin: 4rem 0;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid $color-border-bottom;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
 }
@@ -399,7 +399,7 @@
 }
 
 @mixin vegas-hotel-inner {
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid $color-border-bottom;
     padding-bottom: 2rem;
 }
 
@@ -416,7 +416,7 @@
 }
 
 @mixin las-text-p {
-    color: #1f2b42;
+    color: $menu-color;
     font-size: 16px;
     line-height: 32px;
 }
@@ -485,7 +485,7 @@
 @mixin privacy-inner-li-before {
     position: absolute;
     content: "";
-    background: #000;
+    background: $color-black;
     width: 8px;
     height: 8px;
     top: 8px;
@@ -516,7 +516,7 @@
 @mixin form-inner-box {
     margin-top: 60px;
     border-radius: 20px;
-    background: #1f2b42;
+    background: $menu-color;
     padding: 50px;
     width: 100%;
     max-width: 800px;
@@ -532,7 +532,7 @@
 }
 
 @mixin input {
-    border: 1px solid #a9a9a9;
+    border: 1px solid $border-input;
     background: $color-white;
     padding: 10px;
     margin-bottom: 30px;
@@ -540,7 +540,7 @@
 }
 
 @mixin textareaw3review {
-    border: 1px solid #a9a9a9;
+    border: 1px solid $border-input;
     background: $color-white;
     padding: 10px;
     margin-bottom: 30px;
