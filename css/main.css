@@ -52,7 +52,7 @@ header.header .navigation-inner {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 2rem;
   position: relative;
 }
 header.header .navigation-inner::before {

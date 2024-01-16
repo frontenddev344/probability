@@ -25,7 +25,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 2rem 0;
+    padding: $container-padding;
     position: relative;
 }
 
@@ -56,7 +56,7 @@
 @mixin nav-menu {
     align-items: center;
     display: flex;
-    gap: 2rem;
+    gap: $gap-size;
     list-style-type: none;
     margin: 0;
 }
@@ -185,7 +185,7 @@
 // Define a mixin for you ready to roll the dice and experience  styles
 
 @mixin combination {
-    padding: 60px 0 50px;
+    padding: $combination-padding-top 0 $combination-padding-bottom;
     overflow: hidden;
 }
 
