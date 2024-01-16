@@ -381,6 +381,7 @@ section.hero-section.about .hero-section-inner.about {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(../images/contact-bg-image.jpg);
 }
 section.hero-section.about .hero-section-inner.about .hero-section-content h2 {
   text-align: center;

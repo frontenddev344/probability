@@ -326,7 +326,8 @@ footer.footer {
 section.hero-section.about {
     .hero-section-inner.about {
         @include hero-section-about;
-
+        background: url(../images/contact-bg-image.jpg);
+    
         .hero-section-content {
             h2 {
                 @include hero-section-content-h2;
