@@ -582,7 +582,7 @@ body#about-page .hero-section-content {
   padding-left: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .sidenavs {
     width: 0;
     position: fixed;
