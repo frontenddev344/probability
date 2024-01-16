@@ -326,8 +326,8 @@ footer.footer {
 section.hero-section.about {
     .hero-section-inner.about {
         @include hero-section-about;
-    
-    
+
+
         .hero-section-content {
             h2 {
                 @include hero-section-content-h2;
@@ -494,6 +494,11 @@ section.networks-social {
             }
         }
     }
+}
+
+body#contact-page .hero-section-content,
+body#about-page .hero-section-content {
+    padding-left: 0;
 }
 
 @import './responsive';
