@@ -664,3 +664,13 @@
     visibility: hidden;
     z-index: 1000;
 }
+
+@mixin button-b-a {
+    content: "\f077";
+    font-family: $font-family_1;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: $color_1;
+}
