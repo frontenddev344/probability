@@ -2,7 +2,7 @@
     .sidenavs {
         width: 0;
         position: fixed;
-        background: $color-black;
+        background: $menu-color;
         top: 0;
         left: 0;
         display: inline-block;
@@ -45,6 +45,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .about-menu {
+        margin-bottom: 20px;
+    }
+
     section.hero-section .hero-section-inner .hero-section-content {
         padding: 30px;
     }
