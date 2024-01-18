@@ -385,8 +385,6 @@ section.hero-section.about .hero-section-inner.about {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 section.hero-section.about .hero-section-inner.about .hero-section-content h2 {
   text-align: center;
