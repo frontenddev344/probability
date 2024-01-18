@@ -58,6 +58,11 @@ header.header {
             @include navigation-inner-after;
         }
 
+        .logo-img img {
+            max-width: 250px;
+            display: none;
+        }
+
         .nav-menu {
             @include nav-menu;
 

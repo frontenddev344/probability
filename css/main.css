@@ -77,6 +77,10 @@ header.header .navigation-inner::after {
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
+header.header .navigation-inner .logo-img img {
+  max-width: 250px;
+  display: none;
+}
 header.header .navigation-inner .nav-menu {
   align-items: center;
   display: flex;
@@ -702,6 +706,14 @@ section.networks-social .social-networks ul li a {
   }
   section.hero-section .hero-section-inner {
     border-radius: 20px;
+  }
+  header.header .navigation-inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-img img {
+    display: block !important;
   }
 }
 @media only screen and (max-width: 991px) {
