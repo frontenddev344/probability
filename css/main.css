@@ -574,6 +574,9 @@ section.networks-social .social-networks ul li {
   font-weight: 400;
   padding-bottom: 10px;
 }
+section.networks-social .social-networks ul li a {
+  color: #f8b940;
+}
 
 #button {
   display: inline-block;
