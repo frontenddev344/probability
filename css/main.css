@@ -575,11 +575,6 @@ section.networks-social .social-networks ul li {
   padding-bottom: 10px;
 }
 
-body#contact-page .hero-section-content,
-body#about-page .hero-section-content {
-  padding-left: 0;
-}
-
 #button {
   display: inline-block;
   background-color: #FF9800;
@@ -753,6 +748,9 @@ body#about-page .hero-section-content {
 @media only screen and (max-width: 767px) {
   section.contact .form-inner-box {
     padding: 40px 20px;
+  }
+  section.hero-section .hero-section-inner .hero-section-content {
+    padding: 18px;
   }
 }
 
