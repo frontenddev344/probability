@@ -77,10 +77,6 @@ header.header .navigation-inner::after {
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
-header.header .navigation-inner .logo-img img {
-  max-width: 250px;
-  display: none;
-}
 header.header .navigation-inner .nav-menu {
   align-items: center;
   display: flex;
@@ -670,6 +666,10 @@ section.networks-social .social-networks ul li a {
   width: 0;
 }
 
+.las-text.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1023px) {
   .sidenavs {
     width: 0;
@@ -717,6 +717,15 @@ section.networks-social .social-networks ul li a {
   }
 }
 @media only screen and (max-width: 991px) {
+  .las-text.mobile {
+    display: block;
+  }
+  .vegas-hotel {
+    padding: 0 0 50px;
+  }
+  .desktop-text {
+    display: none;
+  }
   .about-menu {
     margin-bottom: 20px;
   }

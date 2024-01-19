@@ -563,4 +563,8 @@ section.networks-social {
     @include knsl-preloader-bar;
 }
 
+.las-text.mobile {
+    display: none;
+}
+
 @import './responsive';
