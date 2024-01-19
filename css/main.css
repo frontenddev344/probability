@@ -710,7 +710,7 @@ section.networks-social .social-networks ul li a {
   header.header .navigation-inner {
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .logo-img img {
     display: block !important;
