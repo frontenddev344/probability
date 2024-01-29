@@ -403,6 +403,7 @@ section.hero-section.about .hero-section-inner.about .hero-section-content p {
 .vegas-hotel .vegas-hotel-inner {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 2rem;
+  padding-top: 60px;
 }
 .vegas-hotel .vegas-hotel-inner .las-text {
   padding: 0 20px;
@@ -668,6 +669,12 @@ section.networks-social .social-networks ul li a {
 
 .las-text.mobile {
   display: none;
+}
+
+p.vegas-p {
+  color: #1f2b42;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 @media only screen and (max-width: 1023px) {

@@ -567,4 +567,8 @@ section.networks-social {
     display: none;
 }
 
+p.vegas-p {
+    @include las-text-p;
+}
+
 @import './responsive';

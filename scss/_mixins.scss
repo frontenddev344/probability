@@ -400,6 +400,7 @@
 @mixin vegas-hotel-inner {
     border-bottom: 1px solid $color-border-bottom;
     padding-bottom: 2rem;
+    padding-top: 60px;
 }
 
 @mixin las-text {
