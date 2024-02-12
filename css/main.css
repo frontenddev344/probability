@@ -272,6 +272,26 @@ section.casino-hotels .casino-hotels-inner .hotel-content p {
 section.casino-hotels .casino-hotels-inner .hotel-content p img {
   max-width: 120px;
 }
+section.casino-hotels .casino-hotels-inner .btn-wrapper a {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+  background-color: #f8b940;
+  border: 1px solid #f8b940;
+}
+section.casino-hotels .casino-hotels-inner .btn-wrapper a:hover {
+  background-color: transparent;
+  color: #f8b940;
+  border: 1px solid #f8b940;
+}
 
 section.perfect {
   padding-bottom: 50px;
