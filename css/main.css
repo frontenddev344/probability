@@ -758,6 +758,7 @@ section.mobile-view {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom: 20px;
 }
 section.mobile-view::after {
   content: "";
