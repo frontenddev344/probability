@@ -748,7 +748,22 @@ h5.weess {
   inset: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.56);
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: -1;
+}
+
+section.mobile-view {
+  background-image: url(../images/greekbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.mobile-view::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.54);
   z-index: -1;
 }
 
@@ -775,7 +790,14 @@ h5.weess {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.beting_logo span {
+  background: #f8b940;
+  padding: 4px 9px;
+  margin-left: -10px;
 }
 
 .encrypted p {
@@ -1094,6 +1116,7 @@ p.rating-text {
   .mobile-view-design p {
     text-align: left !important;
     font-size: 15px;
+    color: #fff;
   }
   p.rated-star {
     color: #fdbb4f;
