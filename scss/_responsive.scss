@@ -61,9 +61,11 @@
     .las-text.mobile {
         display: block;
     }
+
     .vegas-hotel {
         padding: 0 0 50px;
     }
+
     .desktop-text {
         display: none;
     }
@@ -133,13 +135,16 @@
         ;
     }
 }
+
 @media only screen and (max-width: 575px) {
     .desktop-version {
         display: none;
     }
+
     .mobile-view-design.entertainment {
         display: block;
     }
+
     section.home-main.mobile-table {
         display: block;
     }
@@ -160,11 +165,32 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:480px) {
     .mobile-view-design .warapper .main_box .one_o h6.heading_main {
-        font-size: 19px !important;
+        font-size: 17px !important;
     }
-    
+
+    .mobile-view-design .awesome a {
+        color: #fff;
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: #1f2b42;
+        padding: 12px 31px;
+        text-align: center;
+        border-radius: 6px;
+        display: inline-block;
+        margin-top: 37px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .beste {
+        max-width: 95%;
+    }
+
     .first-bonus {
         display: block;
         text-align: center;
@@ -172,23 +198,24 @@
         font-size: 14px;
         color: #2e3986;
     }
-    
+
     section.home-main.mobile-table .container {
         padding: 0 8px;
     }
-    
+
     .myceltwo {
         margin: 0;
     }
-    
+
     p {
         font-size: 14px;
         text-align: justify;
     }
+}
+
+@media screen and (max-width:395px) {
+    .mobile-view-design .awesome a {
+        font-size: 12px;
     }
-    @media screen and (max-width:395px) {
-        .mobile-view-design .awesome a {
-            font-size: 12px;
-    }
-    
-    }
+
+}

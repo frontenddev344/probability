@@ -622,6 +622,7 @@ h5.weess {
 .pop p {
     color: #fff !important;
 }
+
 .aria {
     margin-bottom: 20px;
 }
@@ -664,7 +665,7 @@ h5.weess {
     font-size: 25px !important;
     font-weight: 600;
     color: #fff;
-    max-width: 50%;
+    max-width: 69%;
     width: 100%;
     line-height: 34px;
 }
@@ -806,6 +807,7 @@ img.encrypted-img {
     display: inline-block;
     margin-top: 37px;
 }
+
 .text_auality h3 {
     color: #f8b940;
     margin-bottom: 0;
@@ -860,12 +862,15 @@ p.rating-text {
     display: flex;
 
 }
+
 .desktop-version {
     display: block;
 }
+
 .mobile-view-design.entertainment {
     display: none;
 }
+
 /*mobile-view-design*/
 
 @import './responsive';
