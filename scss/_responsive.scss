@@ -133,3 +133,62 @@
         ;
     }
 }
+@media only screen and (max-width: 575px) {
+    .desktop-version {
+        display: none;
+    }
+    .mobile-view-design.entertainment {
+        display: block;
+    }
+    section.home-main.mobile-table {
+        display: block;
+    }
+
+    .desktop-version {
+        display: none;
+    }
+
+    .mobile-view-design p {
+        text-align: left !important;
+        font-size: 15px;
+    }
+
+    p.rated-star {
+        color: #fdbb4f;
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .mobile-view-design .warapper .main_box .one_o h6.heading_main {
+        font-size: 19px !important;
+    }
+    
+    .first-bonus {
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        color: #2e3986;
+    }
+    
+    section.home-main.mobile-table .container {
+        padding: 0 8px;
+    }
+    
+    .myceltwo {
+        margin: 0;
+    }
+    
+    p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    }
+    @media screen and (max-width:395px) {
+        .mobile-view-design .awesome a {
+            font-size: 12px;
+    }
+    
+    }
