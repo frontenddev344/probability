@@ -622,8 +622,279 @@ h5.weess {
 .pop p {
     color: #fff !important;
 }
+
 .aria {
     margin-bottom: 20px;
 }
+
+/*mobile-view-design*/
+.bgi-casino {
+    background: url(../images/bg-casiono.jpg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 220px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.bgi-casino::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 15%);
+    z-index: -1;
+}
+
+section.mobile-view {
+    background-image: url(../images/greekbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgb(0 0 0 / 54%);
+        z-index: -1;
+    }
+}
+
+.main-rate-star p.rated-star:nth-child(3) {
+    font-size: 19px !important;
+}
+
+.bgi-casino span {
+    color: #d08a38;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.beste {
+    font-size: 25px !important;
+    font-weight: 600;
+    color: #fff;
+    max-width: 69%;
+    width: 100%;
+    line-height: 34px;
+}
+
+.encrypted {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.beting_logo span {
+    background: #f8b940;
+    padding: 4px 9px;
+    margin-left: -10px;
+}
+
+.encrypted p {
+    color: #fff !important;
+    font-size: 14px;
+    margin: 0 2px 0 0;
+}
+
+.myceltwo {
+    margin: 0 0 0 10px;
+}
+
+.mycelonw .main-rate-star {
+    display: flex;
+}
+
+img.encrypted-img {
+    max-width: 20px;
+    margin: 0 4px 0 0;
+}
+
+.mobile-view-design {
+    background: #f4f4f4;
+    padding-bottom: 28px;
+    display: none;
+}
+
+.mobile-view-design .warapper {
+    background: rgba(215, 217, 219, 0);
+    border-bottom: 4px solid #1a385a;
+    border-radius: 6px;
+    margin: 30px 0;
+}
+
+.mobile-view-design .warapper .main_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #f8b940;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.mobile-view-design .warapper .main_box::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1f2b42;
+    position: absolute;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    width: 55%;
+    z-index: -1;
+}
+
+.mobile-view-design .warapper .main_box .beting_logo {
+    width: 55%;
+}
+
+.mobile-view-design .warapper .main_box .beting_logo img {
+    width: 70%;
+    height: 130px;
+    object-fit: contain;
+}
+
+.mobile-view-design .warapper .main_box .one_o {
+    width: 45%;
+}
+
+.mobile-view-design .warapper .main_box .one_o h6.heading_main {
+    font-size: 23px !important;
+    color: #1a385a;
+    font-weight: 600;
+}
+
+.mobile-view-design .warapper .main_box .one_o h6.heading_main .one_o p {
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.mobile-view-design .start_line {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 1px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background: #ffffff;
+    margin: 17px 0;
+}
+
+.mobile-view-design .start_line p.rating-text {
+    padding-bottom: 4px !important;
+    margin: 0px !important;
+    margin-top: 13px !important;
+}
+
+.mobile-view-design .start_line .notpad {
+    padding: 0 9px;
+}
+
+.mobile-view-design .start_line .notpad p {
+    padding-bottom: 0;
+}
+
+.mobile-view-design .start_line .main-rate-star {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mobile-view-design .start_line .main-rate-star p.rated-star {
+    color: #fdbb4f;
+    font-size: 14px !important;
+}
+
+.mobile-view-design .awesome a {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #1f2b42;
+    padding: 16px 44px;
+    text-align: center;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 37px;
+}
+
+.text_auality h3 {
+    color: #f8b940;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.mobile-view-design p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.one_o p {
+    line-height: 22px;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+p.rating-text {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.rating-text b {
+    color: #fff;
+    font-size: 27px;
+}
+
+.mobile-view-design p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.text_auality p {
+    color: #000;
+}
+
+.rate.notpad {
+    margin-right: 10px;
+}
+
+.mycel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 10px;
+}
+
+.main-rate-star {
+    display: flex;
+
+}
+
+.desktop-version {
+    display: block;
+}
+
+.mobile-view-design.entertainment {
+    display: none;
+}
+
+/*mobile-view-design*/
 
 @import './responsive';
